@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		
+		/*Header CSS ends here*/
+		#banner {
+			background: #79f193;
+			padding: 10px;
+			width: 100%;
+			height: 15%;
+		}
+		#breadcrumbs-bar {
+			border-radius: 15px 0px 0px 0px;
+			background: #FFFFFF;
+			padding: 0px;
+			width: 60%;
+			height: 10%;
+			position: absolute;
+			top: 15%;
+			right: -600px;
+			float: right;
+		}
+		#breadcrumbs-tab.a {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #d1f9cc;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 0%;
+		}
+		#breadcrumbs-tab2.a {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #FFFFFF;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 15%;
+		}
+		#breadcrumbs-tab.b {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #ccf9dd;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 30%;
+		}
+		#breadcrumbs-tab2.b {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #FFFFFF;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 45%;
+		}
+		#breadcrumbs-tab.c {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #ccf9d0;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 58%;
+		}
+		#breadcrumbs-tab2.c {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #FFFFFF;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 70%;
+		}
+		#breadcrumbs-tab.d {
+			border: 0px;
+			border-radius: 15px 0px 0px 0px;
+			background: #ccf9d7;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			position: absolute;
+			transition: 1s;
+			left: 84%;
+		}
+		#breadcrumbs-tab:hover {
+			border-radius: 15px 0px 0px 0px;
+			background: #00ff6a;
+			padding: 0px;
+			width: 200px;
+			height: 60px;
+			top: -10px;
+		}
+		#breadcrumbs-tab2:hover {
+			border-radius: 15px 0px 0px 0px;
+			background: #00ff4c;
+			padding: 0px;
+			width: 17.5%;
+			height: 70%;
+			top: -10px;
+		}
+		#breadcrub-link-text {
+			text-align: left;
+			padding: 10px;
+			font-family: Georgia, serif;
+			transition: 1s;
+		}
+		#breadcrub-link-text:hover {
+			color: #FFFFFF;
+			text-align: left;
+			font-family: Georgia, serif;
+		}
+		#name-card {
+			position: absolute;
+			right: 4%;
+			top: 10px;
+			float: right;
+			padding: 0px;
+		}
+		/*Header CSS Ends Here*/
+		
+		/*Footer CSS Begins Here*/
+		#footer {
+			background: #7ffd89;
+			padding: 10px;
+			width: 100%;
+			height: 15%;
+			position:absolute;
+			top:250%;
+		}
+		#link-header {
+			height:auto;
+			width:auto;
+			position:absolute;
+			left:25%;
+			top:4%;
+		}
+		#link-list {
+			height:10%;
+			width:15%;
+			position:absolute;
+			left:13%;
+			top:25%;
+		}
+		#link-list2 {
+			height:10%;
+			width:5%;
+			position:absolute;
+			left:28%;
+			top:25%;
+		}
+		#social-header {
+			height:auto;
+			width:auto;
+			position:absolute;
+			right:33%;
+			top:4%;
+		}
+		#social-box {
+			width:5%;
+			height:3%;
+			padding:0px;
+			float: right;
+			position:absolute;
+			right:33%;
+			top:30%;
+		}
+		/*Footer CSS Begins Here*/
+
+		body {
+			height: 250%;
+			width: 100%;
+			background: #FFFFFF;
+		}
+		/*Top Half of Body*/
+		.info-box{
+			padding:30px;
+			height:125px;
+			width:300px;
+			background-color: #ccf9d7;
+			box-shadow: -25px 25px 25px #00ff1565;
+			float:left;
+			position:absolute;
+			left:50%;
+			top:35%;
+		}
+		.contact-box{
+			padding:30px;
+			height:75px;
+			width:300px;
+			background-color: #ccf9d7;
+			box-shadow: -25px 25px 25px #00ff1565;
+			float:left;
+			position:absolute;
+			left:50%;
+			top:70%;
+		}
+		.bio-sum {
+			padding: 20px;
+			border: 0px;
+			height: 175px;
+			width: 40%;
+			font-family: Georgia, serif;
+			position: absolute;
+			float: right;
+			top: 37%;
+			right: 2%;
+			display: none;
+			text-align: left;
+			background-color: #ccf9d7;
+			z-index:3;
+			box-shadow: 25px 25px 25px #00ff1565;
+		}
+		#bio-btn {
+			border: 0px;
+			position: absolute;
+			float: right;
+			top: 30%;
+			right: 4%;
+			height: auto;
+			width: 300px;
+			text-align: center;
+			background-color: #ccf9d7;
+			box-shadow: 25px 25px 25px #00ff1565;
+		}
+		.career-sum {
+			border: 0px;
+			padding: 20px;
+			height: 175px;
+			width: 40%;
+			font-family: Georgia, serif;
+			position: absolute;
+			float: right;
+			top: 52%;
+			right: 2%;
+			display: none;
+			text-align: left;
+			background-color: #ccf9d7;
+			z-index:2;
+			box-shadow: 25px 25px 25px #00ff1565;
+		}
+		#career-btn {
+			border: 0px;
+			position: absolute;
+			float: right;
+			top: 45%;
+			right: 4%;
+			height: auto;
+			width: 300px;
+			text-align: center;
+			background-color: #ccf9d7;
+			box-shadow: 25px 25px 25px #00ff1565;
+		}
+		.research-sum {
+			height: 175px;
+			width: 40%;
+			padding: 20px;
+			font-family: Georgia, serif;
+			position: absolute;
+			float: right;
+			top: 67%;
+			right: 2%;
+			display: none;
+			text-align: left;
+			background-color: #ccf9d7;
+			z-index:1;
+			box-shadow: 25px 25px 25px #00ff1565;
+		}
+		#research-btn {
+			border: 0px;
+			position: absolute;
+			float: right;
+			top: 60%;
+			right: 4%;
+			height: auto;
+			width: 300px;
+			text-align: center;
+			background-color: #CCE1F9;
+			box-shadow: 25px 25px 25px #00ff1565;
+		}
+		.show {
+			display:block;
+		}
+		/*Top Half of Body End*/
+
+		/*Bottom Half of Body*/
+		.photo-info {
+			border: 0px;
+			width: 800px;
+			height: 200px;
+			position:absolute;
+			float: right;
+			right: 4%;
+			top: 110%;
+			box-shadow:25px 25px 25px #00ff1565;
+			background-color: #ccf9ce;
+			font-size: 24px;
+		}
+		.photo-info2 {
+			border: 0px;
+			width: 800px;
+			height: 200px;
+			position:absolute;
+			float: left;
+			left: 4%;
+			top: 160%;
+			box-shadow:-25px 25px 25px #00ff1565;
+			background-color: #ccf9ce;
+			font-size: 24px;
+		}
+		.photo-info3 {
+			border: 0px;
+			width: 800px;
+			height: 200px;
+			position:absolute;
+			float: right;
+			right: 4%;
+			top: 210%;
+			box-shadow:25px 25px 25px #00ff1565;
+			background-color: #ccf9ce;
+			font-size: 24px;
+		}
+		/*Bottom Half of Body End*/
+	</style>
+	<head>		
+		<section id="banner">
+			<a href="https://dalesdrumshop.com/"><img src="https://dalesdrumshop.com/wp-content/uploads/2020/12/dales-large.jpg" style="height:100px;width:auto;"></a>
+			<section id="name-card">
+				<h2>Dales Drum Shop</h2>
+				<h2>EST.1962</h2>
+			</section>
+			<section id="breadcrumbs-bar">
+                <a href="HomePage.html">
+				    <button id="breadcrumbs-tab" class="a"><p id="breadcrub-link-text" style="position:relative;left:15px;"><b>Home</b></p></button>
+                </a>
+                <a href="index.html">
+				    <button id="breadcrumbs-tab2" class="a"><p id="breadcrub-link-text" style="position:relative;left:15px;"><b>Shop</b></p></button>
+                </a>
+			</section>
+		</section>
+	</head>
+		
+	<body>
+		<section>
+			<img style="height:300px;float:left;position:absolute;left:5%;top:30%;box-shadow:-25px 25px 25px #00ff6a65;" src="https://cdn.musichouseschool.com/adult-drum-lessons-kansas-city__1_.jpeg">
+			<p class="info-box" style="font-size:20px;"><b style="font-size: 30px;">
+				Dales Drum Shop</b>
+				<br>
+				Established 1962
+				<br>
+				Our Hours
+				<br>
+				Monday - Saturday: 10am - 6pm
+				<br>
+				Sunday: Closed
+				<br>
+				Make sure to contact us for deals!
+			</p>
+			<p class="contact-box" style="font-size:18px;"><b style="font-size: 24px;">
+				Contact Information</b>
+				<br>
+				Email: DalesDrumShop@aws.mail.com
+				<br>
+				Phone Number: (717)-652-2466
+			</p>
+			<button id="bio-btn"><h2>Directions</h2></button>
+			<h4 id="bio-box" class="bio-sum"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.9330989016175!2d-76.81941088460763!3d40.29944437937895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8b8a39f843b13%3A0x5d6ab4391313be52!2sDale&#39;s%20Drum%20Shop!5e0!3m2!1sen!2sus!4v1638999054762!5m2!1sen!2sus" width="595" height="175" style="border:0;" allowfullscreen="" loading="lazy"></iframe></h4>
+		</section>
+		<section>
+			<img style="height:400px;width:600px;float:left;position:absolute;left:5%;top:105%;box-shadow:-25px 25px 25px #00ff1565;" src="https://images.squarespace-cdn.com/content/v1/59b983642994cad1d328bfe4/1513198310558-D9QUF3LSUQXWPZG4W07B/shutterstock_86876089.jpg?format=1500w">
+			<p class="photo-info">At Dales Drum Shop we feel lessons should be as much fun as they are informative. No matter if you’re a complete beginner or an experienced road player, our one-on-one, side-by-side instruction will help to refine the drummer in you. We will teach you the rudiments and the fundamental building blocks of drumming. From classic Jazz to double bass rock, learn how to read and write the music you’re playing behind the kit. Need to learn marimba for concert band? How about poly-rudiments on the snare? Maybe it’s hand percussion to join in a local drum circle. At Dales we work with all levels and styles of drummers.</p>
+			<img style="height:400px;width:600px;float:right;position:absolute;right:5%;top:150%;box-shadow:25px 25px 25px #00ff1565;" src="https://www.mensjournal.com/wp-content/uploads/mf/alternative-to-handshake-main.jpg?w=1188&h=675&crop=1&quality=86&strip=all">
+			<p class="photo-info2">We’d Rather Make Friends Than $$ Our Team is here to help you make the best choice for your gig or home kit.  We have tons of parts that will customize any rig.</p>
+			<img style="height:400px;width:600px;float:left;position:absolute;left:5%;top:195%;box-shadow:-25px 25px 25px #00ff1565;" src="https://drummagazine.com/wp-content/uploads/2016/08/090810-drumtech-changinghead.jpg">
+			<p class="photo-info3">Personal Drum Tech
+				Each piece of equipment at Dale’s Drum Shop is closely inspected and must meet rigorous quality standards before we display it on our showroom floor and sell it to our customers.</p>
+		</section>
+	</body>
+	<footer>
+		<section id="footer">
+			<p id="social-header" style="font-family:Georgia, serif;font-size:20px;"><b>Social Media</b></p>
+			<div id="social-box">
+				<a href="https://www.facebook.com/dalesdrumshop"><img src="https://www.facebook.com/images/fb_icon_325x325.png" style="height:30px;width:auto;float:right;position:absolute;right:-10%;top:30%;"></a>
+				<a href="https://www.instagram.com/dalesdrumshop"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" style="height:30px;width:auto;float:right;position:absolute;right:110%;top:30%;"></a>
+			</div>
+			<a href="https://dalesdrumshop.com/"><img src="https://dalesdrumshop.com/wp-content/uploads/2020/12/dales-large.jpg" style="height:100px;width:auto;float:right;position:absolute;right:3%;bottom:20%;"></a>
+		</section>
+	</footer>
+	<script>
+		document.getElementById("bio-btn").onclick = function() {document.getElementById("bio-box").classList.toggle("show");};
+	</script>
+</html>
+	
